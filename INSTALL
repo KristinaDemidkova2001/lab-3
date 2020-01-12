@@ -1,0 +1,11 @@
+﻿Для сборки исходного кода необходимо наличие Java Development Kit не ниже версии 8, который доступен по ссылке https://www.oracle.com/technetwork/java/javase/downloads/index.html.
+
+Для сборки выполнить команды:
+cd src
+javac AppWindow.java 
+mv *.class ../out 
+cd ../out
+
+Для запуска собранной программы необходимо наличие Java Runtime Environment не ниже версии 8, который доступен по ссылки https://www.oracle.com/technetwork/java/javase/downloads/index.html.
+
+Для запуска выполнить команду "java AppWindow".
